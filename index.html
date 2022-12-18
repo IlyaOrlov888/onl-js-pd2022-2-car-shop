@@ -4,20 +4,8 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<style>
-			table,
-			thead,
-			tbody {
-				border: 3px solid teal;
-				border-collapse: separate;
-			}
-			th,
-			tr,
-			td {
-				border: 2px solid teal;
-				border-collapse: separate;
-			}
-		</style>
+		<!-- <link rel="stylesheet" href="/assets/css/another-one-style.css" /> -->
+		<link rel="stylesheet" href="/assets/css/style.css" />
 		<link
 			rel="shortcut icon"
 			href="./assets/images/icons/favicon_2.ico"
@@ -26,23 +14,89 @@
 	</head>
 	<body>
 		<header>
-			<nav
-				><a href="#a1">A1</a><br /><a href="">A2</a
-				><a href="">A3</a>
-        <a href="./form.html">Form</a>
-        </nav
-			>
+			<nav>
+				<a href="#a1">A1</a>
+				<a href="">A2</a>
+				<a href="./table.html">Table</a>
+				<a href="./form.html">Form</a>
+				<a href="./form.html" >Form</a>
+				<a href="#1" >Form</a>
+			</nav>
 		</header>
 		<main>
 			<h1></h1>
 			<article id="a1">
-				<h2></h2>
-        <img 
-        src="./assets/images/toyota-logo.png" 
-        alt="toyota-logo"
-        width="150px"
-        height="100px">
-				<section> </section>
+				<h2>Toyota</h2>
+				<img
+					src="./assets/images/toyota-logo.png"
+					alt="toyota-logo"
+					width="150px"
+					height="100px" />
+				<section>
+					<p name="first" class="first-cl" id="first-id">
+						orem ipsum dolor sit amet, consectetur adipisicing elit.
+						Mollitia maxime eaque, velit adipisci, officiis iure hic
+						doloremque eum non ut beatae voluptatibus numquam
+						debitis ab nisi? Consequuntur fugit officia atque nemo
+						saepe earum fugiat dicta nulla? Autem reiciendis tempore
+						dolor, rem quo dolorum
+					</p>
+					<p name="second" class="second-cl second" id="second-id">
+						L totam sequi, obcaecati suscipit perspiciatis maxime.
+						Facilis totam, molestiae odio porro necessitatibus
+						dolore fugiat ullam soluta minima optio, fugit labore
+						ut, possimus sed tenetur quod odit! Praesentium cum
+						assumenda ducimus debitis architecto autem error dicta,
+						alias laborum amet doloremque, iure earum sequi. Quaerat
+						autem consequuntur cupiditate blanditiis esse corrupti
+						id facilis
+					</p>
+					<div></div>
+					<p name="third" class="third-cl" id="third-id">
+						nulla totam rerum beatae illo aliquid repellendus quos
+						reprehenderit animi voluptas a neque consectetur
+						sapiente dignissimos, voluptates vitae sed impedit!
+						Quasi consequuntur neque distinctio mollitia labore?
+						Temporibus, nisi perspiciatis, debitis asperiores
+						inventore beatae eum fuga dolore saepe, omnis placeat
+						nesciunt qui! Facere praesentium deleniti nemo
+						perferendis doloribus facilis non vero laborum cum
+						ducimus. Cupiditate inventore, dolorem iure saepe
+						sapiente aliquid eligendi, molestiae molestias modi
+						placeat commodi odio maxime natus, recusandae sit
+						dolores qui accusantium neque ipsum velit exercitationem
+						minus sequi explicabo id. Reprehenderit temporibus quasi
+						sequi libero, similique ut ipsa ex quisquam pariatur
+						vitae non blanditiis necessitatibus. Ipsam deserunt
+						earum ea enim magnam autem placeat porro! Nobis at ipsam
+						corporis repellendus tempora, pariatur optio numquam
+						repellat quas vitae minima voluptatum rerum temporibus,
+						omnis odio quod adipisci, eum laudantium? Ducimus
+						cupiditate aspernatur, distinctio nostrum repellat rerum
+						natus et accusamus saepe earum maiores. Eveniet
+						quibusdam laudantium animi vel ratione doloribus labore
+						iste beatae in quis qui ea dolor aspernatur officia odit
+						enim sequi, ullam nostrum repudiandae rem provident
+						ducimus consectetur eius excepturi. Veniam doloribus
+						dolore vero magnam cumque dignissimos mollitia error
+						exercitationem a? Nam optio nemo reiciendis provident
+						nulla expedita! Nesciunt hic sunt quia, distinctio
+					</p>
+					totam sit nihil quos consectetur similique soluta quas
+					adipisci placeat odio, et eos!
+				</section>
+				<div>
+					<p class="p-border p-width1"> Width in px </p>
+				</div>
+				<div>
+					<p class="p-border p-width2"> Width in vmax </p>
+				</div>
+				<div>
+					<p class="p-border p-width3"> Width in % </p>
+				</div>
+				<div id="div-color">
+					<p> Color </p>
+				</div>
 				<section> </section>
 			</article>
 			<article>
@@ -56,57 +110,5 @@
 				<section></section>
 			</article>
 		</main>
-		<table>
-      <caption>Table#1 Capitals info</caption>
-			<thead>
-				<tr>
-					<th rowspan="2">Country</th>
-					<th rowspan="2">Capital</th>
-					<th colspan="2">Info</th>
-					<th rowspan="2">Notice</th>
-				</tr>
-				<tr>
-					<th>Population</th>
-					<th>Square (km<sup><small>2</small></sup>)</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>Britain</td>
-					<td>London</td>
-					<td>8 961 989 *</td>
-					<td>1602</td>
-					<td>* 2020</td>
-				</tr>
-				<tr>
-					<td>USA</td>
-					<td>Washington</td>
-					<td>689 545 *</td>
-					<td>177</td>
-					<td>* 2020</td>
-				</tr>
-				<tr>
-					<td rowspan="2">Netherlands</td>
-					<td>Amsterdam</td>
-              <td>872 757  *</td>
-              <td>243</td>
-              <td>* 2019</td>
-				</tr>
-				<tr>
-					<td>Haag</td>
-              <td>515 880 *</td>
-              <td>98.2</td>
-              <td>* 2015</td>
-				</tr>
-				<tr>
-					<td>Ukraine</td>
-              <td>Kiev</td>
-              <td>2 950 702 *</td>
-              <td>847.66</td>
-              <td>* 2022</td>
-				</tr>
-			</tbody>
-			<tfoot></tfoot>
-		</table>
 	</body>
 </html>

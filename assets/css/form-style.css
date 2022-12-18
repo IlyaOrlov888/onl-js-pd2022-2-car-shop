@@ -1,0 +1,3 @@
+input:not([type="radio"]){
+  background-color: aquamarine;
+}
